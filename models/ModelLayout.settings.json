@@ -1,0 +1,12 @@
+{
+  "connection": "default",
+  "collectionName": "modellayout",
+  "info": {
+    "name": "modellayout",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {}
+}
