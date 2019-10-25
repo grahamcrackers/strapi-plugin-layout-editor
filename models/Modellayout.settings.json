@@ -1,19 +1,21 @@
 {
   "connection": "default",
-  "collectionName": "modellayout",
   "info": {
     "name": "modellayout",
     "description": ""
   },
   "options": {
-    "timestamps": ["createdAt", "updatedAt"]
+    "timestamps": true
   },
   "attributes": {
-    "model": {
+    "modelType": {
       "type": "string"
     },
     "modelId": {
       "type": "string"
+    },
+    "filters": {
+      "type": "json"
     },
     "layoutJson": {
       "type": "json"

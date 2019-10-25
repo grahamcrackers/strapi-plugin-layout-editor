@@ -2,7 +2,15 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/:model/:id/layouts",
+      "path": "/",
+      "handler": "LayoutEditor.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/:modelType/:modelId/layouts",
       "handler": "LayoutEditor.findByModelId",
       "config": {
         "policies": []

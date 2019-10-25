@@ -1,3 +1,4 @@
+  
 'use strict';
 
 /**
@@ -8,7 +9,7 @@
 
 module.exports = {
   fetchByModelId(params, source) {
-    console.log(params);
+    
     return strapi
       .query(params.model, source)
       .findOne({ modelId: params.id });
